@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>Tubook（オリジナルアプリ）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Ginga Sakaguchi</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>Tubook（youtubeメモアプリ）</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+            <img src="../images/work/02/tubook.png" class="show-pc">
+            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
+            <img src="../images/work/02/pict-work02-firstview_sp.jpg" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / JavaScript / Nginx / AWS / MYSQL/ GitHub / Visual Studio Code</p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/gingin-s/tubook" target="_blank">https://github.com/gingin-s/tubook</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>120時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="http://52.198.247.103/" target="_blank">http://52.198.247.103/</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <!-- 記載番号：7 -->
+                  <td>admin</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：8 -->
+                  <td>2222</td>
+                </tr>
+              </table>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>ゲストアカウント1</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>g1@sample.com</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>aaa222</td>
+                </tr>
+              </table>
+              <h4>ゲストアカウント2</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>g2@sample.com</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>aaa222</td>
+                </tr>
+              </table>
+              <h4>Room招待可能アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>アカウント名</th>
+                  <!-- 記載番号：9 -->
+                  <td>GINGIN・tanaka・suzuki</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="p-work-outline__text">
+              <p>
+                youtube動画での学習を支援するアプリケーションです。
+              </p>
+              <p>
+              <p>・好みのyoutube動画にタイトルを付けて管理することができ、参考書に付箋を貼るような感覚で指定した<br>　時間にメモを書き込めます。</p>
+              <p>・メモをクリックすると、メモのある時間に動画をジャンプさせることができるので、いつでも・簡単に・<br>　素早く知りたい情報にたどり着くことができます。</p>
+              <p>・書き込んだメモは動画の再生に合わせて表示されます。</p>
+              </p>
+              <p>
+                これらの機能により作成されるコンテンツを、アプリ内では本になぞらえBookと呼びます。              </p>
+              <p>
+                その他に、任意のメンバーを招待できるRoom機能では作成したBookを共有することができ、また、リアルタイムチャットを使ってアプリケーション内で簡単にコミュニケーションを取ることができます。<br>
+                これらの機能は、学習のみならず、動画制作における制作物の確認や修正点の共有といった用途にも利用できます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  私の身近な友人や同僚にヒアリングを行ったところ、「近頃は動画で学習を行うことが多いが、復習をするときに必要な情報を素早く取り出すことができない」というケースに遭遇しました。<br>
+                  これには私自身も見に覚えがあり、ちょうど動画を扱ってみたいとも考えていたので「動画を扱いやすくする」というテーマに取り組もうと考えました。<br>
+                  さらにヒアリングを続けたところ、仕事の一環で動画制作を行うという知人から、「作成した動画の修正箇所等の伝達・コミュニケーションがスムーズにいかない」という問題を知りました。<br>
+                  そこで、                </p>
+                <p>
+                  １．動画の必要な情報を、引き出しやすい状態でまとめておく<br>
+                  ２．これをチームで共有し、コミュニケーションを取りやすくする                </p>
+                <p>
+                  以上の2点の要件を満たすアプリを開発することにしました。                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/tubook-chat.png">
+                </div>
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    ・企画<br>
+                    身近な人物にヒアリングを行い、自身の想像ではなく、実在する問題解決のためのアプリケーションを開発しました。
+                  </p>
+                  <p>
+                    ・youtube動画の操作<br>
+                    非同期通信で追加する要素自身に動画を操作するトリガーやデータを持たせ、また、新たに追加された要素の情報を他の関数内(Note自動表示昨日等)においても追加・更新するなど、JavaScriptの使い方を工夫しました。
+                  </p>
+                  <p>
+                    ・リアルタイムチャット機能<br>
+                    ActionCableを利用したリアルタイムチャット昨日を実装しました。また、受信したメッセージを自身の投稿とそれ以外で左右に振り分けるなどの工夫も行いました。
+                  </p>
+                  <p>
+                    ・実践的なサーバーの構築<br>
+                    より実践的なサーバー構築を学ぶため、Multi-AZでのAWSのサーバー構築を行いました(EC2/RDS(mysql))。料金の問題から、現在はSingle-AZ(MariaDB on EC2)の構成に変更してあります。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/tubook-index.jpg">
+                </div>
+                <!-- 記載番号：14 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    ・投稿したBookを、ラベルで管理できるようにする。<br>
+                    Book同士の関連付けすることで、利用者の学習効率を上げるため。
+                  </p>
+                  <p>
+                    ・Book検索機能の実装<br>
+                    現状ではBookの投稿数が多くなった場合に、目的のBookを見つけづらいため。
+                  </p>
+                  <p>
+                    ・Room内の変更に対するお知らせ機能の実装。<br>
+                    新規Bookの投稿や、チャットメッセージを受信した際にすぐに気付けるようにするため
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/furima.png');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：15 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：16 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / AWS(S3) / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/tubook.png');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：17 -->
+                  <h3>Tubook（youtubeメモアプリ）</h3>
+                  <!-- 記載番号：21 -->
+                  <p>Ruby / Ruby on Rails / JavaScript / Nginx / AWS / MYSQL/ GitHub / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Ginga Sakaguchi.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
